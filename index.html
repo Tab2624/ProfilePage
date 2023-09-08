@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navContainer">
+      <!--Profile Bar Container-->
+      <div class="navBar">
+        <h2>Profile</h2>
+        <h4>Home</h4>
+        <h4>My Profile</h4>
+        <h4>Find Connections</h4>
+      </div>
+      <button id="button">Sign Out</button>
+    </div>
+    <div class="container">
+      <div class="col-1">
+        <!--profile and education-->
+        <div class="profile">
+          <!--profile container-->
+          <div class="blueBox"></div>
+          <div class="profInfo">
+            <!--information within the profile-->
+            <div>
+              <img src="icons/user-circle.png" alt="Profile Picture" id="pp" />
+              <h2>Jane Doe</h2>
+            </div>
+            <div class="location fl">
+              <!--icon and seattle-->
+              <img src="icons/map-marker.png" alt="Map Marker" id="marker" />
+              <h4>Seattle</h4>
+            </div>
+            <div>
+              <!--about me inside the profile block-->
+              <p>Developer | Engineer | Problem Solver</p>
+              <p>Master of shadows and the Internet!</p>
+            </div>
+            <div>
+              <!--edit profile-->
+              <img src="icons/gear.png" alt="Gear" id="gear" />
+              <a href="#">edit profile</a>
+            </div>
+          </div>
+        </div>
+        <div class="education">
+          <!--education container-->
+          <div class="educationBox">
+            <p>Education</p>
+            <!--gray Education box-->
+          </div>
+          <div class="educationInfo">
+            <h3 class="educationMargin">
+              <span style="font-weight: bold">
+                Coding Dojo - Full Stack Bootcamp
+              </span>
+            </h3>
+            <p class="educationMargin">Dec 2019 - March 2020</p>
+            <p class="educationMargin">
+              Triple black belt in Python, MERN, and C#
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <!--Connection Requests and Your Connections-->
+        <div class="conRequests">
+          <!--connectionRequests container-->
+          <div class="conRequestsGray">
+            <!--gray connection requests block-->
+            <h4 id="twoCircle">2</h4>
+            <h4>Connection Requests</h4>
+          </div>
+          <div class="todd">
+            <div class="fl center">
+              <img src="images/todd-s.jpg" alt="Todd E" />
+              <h3>Todd E</h3>
+            </div>
+            <div class="icon">
+              <img src="icons/accept-circle.png" alt="Accept" id="icon" />
+              <img src="icons/close-circle.png" alt="Decline" id="icon" />
+            </div>
+          </div>
+          <div class="phil">
+            <div class="fl center">
+              <img src="images/phil-s.jpg" alt="Phil" />
+              <p>Phil K</p>
+            </div>
+            <div class="icon">
+              <img src="icons/accept-circle.png" alt="Accept" id="icon" />
+              <img src="icons/close-circle.png" alt="Decline" id="icon" />
+            </div>
+          </div>
+        </div>
+        <div class="yourConnections">
+          <!--Your Connections Container-->
+          <div class="yourConnectionsGray">
+            <!--gray your connections block-->
+            <h4 id="fiveHundredCircle">500+</h4>
+            <h4>Your Connections</h4>
+          </div>
+          <div>
+            <!--connection names-->
+            <div class="friendNames">
+              <img src="images/adrien-s.jpg" alt="Adrien" />
+              <p>Adrien D</p>
+            </div>
+            <div class="friendNames">
+              <img src="images/anne-s.jpg" alt="Anne" />
+              <p>Anne J</p>
+            </div>
+            <div class="friendNames">
+              <img src="images/alayne-s.jpg" alt="Alayne" />
+              <p>Alayne T</p>
+            </div>
+            <div class="friendNames">
+              <img src="images/arry-s.jpg" alt="ARRY" />
+              <p>ARRY Y</p>
+            </div>
+          </div>
+          <div class="viewMore">
+            <a href="#">View More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

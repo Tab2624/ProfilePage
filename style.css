@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: normal;
+}
+a{
+    color: blue;
+}
+.fl{
+    display: flex;
+}
+.center{
+    align-items: center;
+}
+/* NavBar */
+.navContainer{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+.navBar{
+    width: 500px;
+    color: white;
+    display: flex;
+    gap: 3%;
+    align-items: center;
+}
+#button{
+    height: 30px;
+    color: white;
+    background-color: #17A2B8;
+    padding: 3px 5px;
+    border-color: black;
+}
+/* Start of container */
+.container{
+    display: flex;
+} 
+
+.col-1{
+    margin-top: 30px;
+}
+.profile{
+    width: 400px;
+    height: 320px;
+    border: 2px solid black;
+    margin-left: 90px;
+    margin-top: 0px;
+}
+.blueBox{
+    background-color: #17A2B8;
+    height: 100px;
+}
+.profInfo div{
+    margin: 2% 0px;
+    position: relative;
+    bottom: 60px;
+    padding-left: 20px;
+    font-weight: normal;
+}
+#pp{
+    height: 100px;
+}
+#marker{
+    height: 20px;
+    margin-right: 8px;
+}
+#gear{
+    height: 15px;
+}
+.education{
+    width: 400px;
+    height: 175px;
+    border: 2px solid black;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.educationBox{
+    background-color: #333333;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+}
+.educationInfo{
+    margin: 3% 3%;
+}
+.educationMargin{
+    margin-bottom: 20px;
+}
+
+.col-2{
+    margin-top: 30px;
+}
+
+.col-2 img{
+    height: 45px;
+}
+
+.conRequests{
+    height: 200px;
+    width: 250px;
+    border: 2px solid black;
+    margin-left: 30px;
+}
+.conRequestsGray{
+    display: flex;
+    background-color: #333333;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+#twoCircle{
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.todd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: normal;
+    margin: 25px 0;
+}
+.todd h3{
+    margin-left: 15px;
+}
+.phil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: normal;
+    margin: 25px 0;
+}
+.phil h3{
+    margin-left: 15px;
+}
+.icon{
+    display: flex;
+}
+#icon{
+    height: 30px;
+    margin: 0px 5px;
+}
+
+.yourConnections{
+    width: 250px;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 349px;
+    border: 2px solid black;
+}
+
+.yourConnectionsGray{
+    display: flex;
+    background-color: #333333;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+#fiveHundredCircle{
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    height: 25px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.friendNames{
+    display: flex;
+    margin: 20px 10px;
+    align-items: center;
+    height: 40px;
+}
+
+.friendNames p{
+    margin-left: 20px;
+}
+
+.viewMore{
+    border-top: 1px solid black;
+    padding: 5%;
+}
