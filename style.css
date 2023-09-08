@@ -148,7 +148,7 @@ a{
 .icon{
     display: flex;
 }
-#icon{
+.icon img {
     height: 30px;
     margin: 0px 5px;
 }
