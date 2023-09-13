@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="navContainer">
@@ -27,7 +27,7 @@
             <!--information within the profile-->
             <div>
               <img src="icons/user-circle.png" alt="Profile Picture" id="pp">
-              <h2>Jane Doe</h2>
+              <h2 id='name'>Jane Doe</h2>
             </div>
             <div class="location fl">
               <!--icon and seattle-->
@@ -42,7 +42,7 @@
             <div>
               <!--edit profile-->
               <img src="icons/gear.png" alt="Gear" id="gear">
-              <a href="#">edit profile</a>
+              <a href="#" id="edit" onclick="editProf('#name')">edit profile</a>
             </div>
           </div>
         </div>
@@ -65,33 +65,34 @@
           </div>
         </div>
       </div>
+
+      <!--Connection Requests and Your Connections-->
       <div class="col-2">
-        <!--Connection Requests and Your Connections-->
+        <!--connectionRequests container-->
         <div class="conRequests">
-          <!--connectionRequests container-->
+          <!--gray connection requests block-->
           <div class="conRequestsGray">
-            <!--gray connection requests block-->
             <h4 id="twoCircle">2</h4>
             <h4>Connection Requests</h4>
           </div>
-          <div class="todd">
+          <div class="todd" id='todd'>
             <div class="fl center">
               <img src="images/todd-s.jpg" alt="Todd E">
               <h3>Todd E</h3>
             </div>
             <div class="icon">
-              <img src="icons/accept-circle.png" alt="Accept">
-              <img src="icons/close-circle.png" alt="Decline">
+              <img src="icons/accept-circle.png" alt="Accept" onclick="addUser('#todd')">
+              <img src="icons/close-circle.png" alt="Decline" onclick="removeUser('#todd')">
             </div>
           </div>
-          <div class="phil">
+          <div class="phil" id='phil'>
             <div class="fl center">
               <img src="images/phil-s.jpg" alt="Phil">
               <h3>Phil K</h3>
             </div>
             <div class="icon">
-              <img src="icons/accept-circle.png" alt="Accept">
-              <img src="icons/close-circle.png" alt="Decline">
+              <img src="icons/accept-circle.png" alt="Accept" onclick="addUser('#phil')">
+              <img src="icons/close-circle.png" alt="Decline" onclick="removeUser('#phil')">
             </div>
           </div>
         </div>
@@ -99,7 +100,7 @@
           <!--Your Connections Container-->
           <div class="yourConnectionsGray">
             <!--gray your connections block-->
-            <h4 id="fiveHundredCircle">500+</h4>
+            <h4 id="fiveHundredCircle">418</h4>
             <h4>Your Connections</h4>
           </div>
           <div>
@@ -127,5 +128,6 @@
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
